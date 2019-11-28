@@ -1,0 +1,58 @@
+/*********************** typography **********************/
+
+
+@font-face {
+  font-family: "SFProText-Light";
+  src: url("../../fonts/SFProtextLight/SF Pro Text Light.eot");
+  src: url("../../fonts/SFProtextLight/SF Pro Text Light.woff2") format("woff2"),
+    url("../../fonts/SFProtextLight/SF Pro Text Light.woff") format("woff"),
+    url("../../fonts/SFProtextLight/SF Pro Text Light.otf") format("otf"),
+    url("../../fonts/SFProtextLight/SF Pro Text Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "SFProText-Regular";
+  src: url("../../fonts/SFProtextRegular/SF Pro Text Regular.eot");
+  src: url("../../fonts/SFProtextRegular/SF Pro Text Regular.woff2") format("woff2"),
+    url("../../fonts/SFProtextRegular/SF Pro Text Regular.woff") format("woff"),
+    url("../../fonts/SFProtextRegular/SF Pro Text Regular.otf") format("otf"),
+    url("../../fonts/SFProtextRegular/SF Pro Text Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+hr {
+  margin: 0;
+  font-weight: 400;
+}
+
+h1 {}
+
+h2 {}
+
+h3 {}
+
+h4 {}
+
+h5 {}
+
+h6 {}
+
+p {}
+
+a {
+  display: inline-block;
+}
+
+a:hover,
+a:focus,
+a:active {}
